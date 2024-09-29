@@ -8,6 +8,7 @@ class Contact:
         self.email = email
     def __str__(self):
         print(f" name: {self.name}\n phone_no: {self.phone_number}\n Email: {self.email}")
+
 class PhoneBook:
     def __init__(self, db_name = 'phonebook'):
         self.db_name = db_name + '.sqlite3'
@@ -22,7 +23,6 @@ class PhoneBook:
     def close(self):
         if self.cursor:
             self.cursor.close()
-        if self.conn:
             self.conn.close()
 
     def add_contact(self, contact: Contact):
@@ -33,22 +33,15 @@ class PhoneBook:
         command = f"UPDATE phonebook SET name = ? , phone_number = ?, email = ? WHERE name = ?"
         self.cursor.execute(command, (new_contact.name, new_contact.phone_number, new_contact.email, name))
         self.conn.commit()
+    def display_contact(self):
+        command = "SELECT * FROM phonebook"
+        cursor = self.cursor.execute(command)
+        for index, row in enumerate(cursor):
+            print(f"{index + 1}. {row}")
     def delete_contact(self, name):
         command = "DELETE FROM phonebook WHERE name = ?"
         self.cursor.execute(command, (name ,))
         self.conn.commit()
-
-
-
-
-
-
-
-phonebook = PhoneBook()
-contact = Contact('beya', '0931250190')
-ct = Contact('meron', '0953579959')
-# phonebook.add_contact(contact)
-phonebook.delete_contact("meron")
-phonebook.close()
+    
 
 
