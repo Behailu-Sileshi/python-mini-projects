@@ -11,26 +11,21 @@ A simple command-line application that generates random passwords based on user-
 ## Installation
 
 1. **Clone the repository:**
-   ```bash
    git clone https://github.com/Behailu-Sileshi/python_mini_project.git
    cd python_mini_project/password_generator
 
 
-2. No external packages are required for this simple application since it uses the built-in libraries.
-Usage
+2. **No external packages are required for this simple application since it uses the built-in libraries.
+Usage**
 
-3. Run the application:
+3. **Run the application:**
+      python password_generator.py
 
-
-python password_generator.py
-
-Contributing
+# Contributing
 
 Contributions are welcome! If you have suggestions for improvements or find bugs, please feel free to open an issue or submit a pull request.
 
-License
-
+# License
 This project is licensed under the MIT License - see the LICENSE file for details.
-Acknowledgements
-
-    Inspired by various password generation techniques and examples found online.
+# Acknowledgements
+Inspired by various password generation techniques and examples found online.
