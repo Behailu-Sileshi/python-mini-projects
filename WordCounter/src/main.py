@@ -16,5 +16,5 @@ def word_counter(file_path: str) -> None:
         no_of_chars += len(line)
     print(f' number of lines: {no_of_line} \n no_of words: {no_of_words}\n no_of_chars: {no_of_chars}')
 
-if __name__ == '__main__:
+if __name__ == '__main__':
     word_counter('file.txt')
