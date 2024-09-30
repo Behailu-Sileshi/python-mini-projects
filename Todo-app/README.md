@@ -45,7 +45,6 @@ Example Commands
     Enter 5 to exit the application.
 
 # Error Handling
-
 The application will handle the following errors:
 
 - Invalid date format: Prompts the user to enter a date in the correct format (YYYY-MM-DD).
@@ -58,6 +57,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Contributing
 
 Feel free to fork the repository and submit pull requests if you want to contribute to this project.
-Author
+# Author
 Behailu Sileshi
 https://github.com/Behailu-Sileshi
