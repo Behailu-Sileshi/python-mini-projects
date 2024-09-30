@@ -7,6 +7,7 @@ Welcome to my Python Mini Projects repository! This repository contains a collec
 - **Password Generator**: A command-line application that generates random passwords based on user-defined criteria, such as including lowercase letters, uppercase letters, digits, and symbols.
 
 - **Word Counter**: A simple utility that counts the number of lines, words, and characters in a specified text file.
+- **Todo Manager**: A simple command-line Todo List Manager that allows users to create, view, remove, and mark todos as completed.
 - **Phonebook Manager**: The Phonebook Mini App is a simple command-line application built in Python that allows users to manage their contacts efficiently. 
 
 Feel free to explore the individual project folders for more details, including how to run them and any dependencies required.
