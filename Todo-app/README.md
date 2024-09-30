@@ -58,5 +58,4 @@ Contributing
 
 Feel free to fork the repository and submit pull requests if you want to contribute to this project.
 # Author
-Behailu Sileshi
-https://github.com/Behailu-Sileshi
+[Behailu Sileshi](https://github.com/Behailu-Sileshi)
